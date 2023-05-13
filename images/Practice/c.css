@@ -1,0 +1,40 @@
+img{
+    max-width: 10%;
+    height: auto;
+}
+.containeer{
+   background-color: black;
+    color: black;
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    width: 100px;
+    height: 500px;
+    background-color:blue;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+table, th, td {
+    border: 1px solid black;
+  }
+  .conatainer{
+    width: 500px;
+background-color: black;
+color: blue;
+    height: 400px;
+  }
+  @media  (max-width: 444px) or (min-width:600px) {
+    body {
+      background-color: blue;
+    }
+    .conatainer{
+        width: 20px;
+    background-color: orange;
+    color: pink;
+        height: 80px;
+      }
+  }

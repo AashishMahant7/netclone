@@ -1,0 +1,21 @@
+a{
+    padding: 20px 10px;
+    text-decoration: none;
+    color:purple;
+    background-color: red;
+    
+}
+a:hover{
+    display:inline-block;
+    transform: translate(50px ,60px);
+}
+img{
+    transition-property: transform, width;
+    transition-duration: 3s;
+ 
+}
+img:hover{
+    
+    transform: rotate(20deg);
+    width: 55%;
+}
